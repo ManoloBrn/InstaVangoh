@@ -1,2 +1,15 @@
 # InstaVangoh
-It shows your top 5 instagram photos and we use DeepDream to make them better.
+
+Mini project to get the last 10 photos from your Instagram profile and apply some filters.
+
+IMPORTANT: Before to install use a **Virtual Envoriment**
+
+Install dependencies
+```python
+python install requirements.txt
+```
+
+Run the project using Gunicorn 
+```python
+gunicorn VangohTensor:app
+```
